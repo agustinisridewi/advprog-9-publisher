@@ -17,3 +17,8 @@ Ini menunjukkan bahwa publisher dan subscriber menghubungkan ke broker AMQP di m
 
 #### Preparing Message Broker (RabbitMQ)
 ![alt text](image.png)
+
+#### Sending and processing event
+![alt text](image-1.png)
+![alt text](image-2.png)
+-> Publisher dan subscriber terhubung ke server RabbitMQ yang sama. Jadi, setiap kali publisher mengirimkan data, subscriber akan menerimanya.
