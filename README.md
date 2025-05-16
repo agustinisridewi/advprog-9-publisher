@@ -22,3 +22,7 @@ Ini menunjukkan bahwa publisher dan subscriber menghubungkan ke broker AMQP di m
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 -> Publisher dan subscriber terhubung ke server RabbitMQ yang sama. Jadi, setiap kali publisher mengirimkan data, subscriber akan menerimanya.
+
+#### Monitoring chart based on publisher
+![alt text](image-3.png)
+-> Saat kita menjalankan publisher, lebih banyak pesan yang dipublikasikan ke broker. Lonjakan ini menunjukkan peningkatan mendadak dalam laju pengiriman pesan dari publisher ke broker dan kemudian disampaikan ke subscriber.
